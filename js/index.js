@@ -12,8 +12,6 @@ const content2 = (contentSections[1])
 
 const destinationKeys = document.querySelector('.content-destination h2')
 
-const pirate = document.querySelector('.content-destination img')
-
 const fadeIn = {
     transition: 'all 0.5s ease-in 0s',
     transform: 'translateX(0rem)',
@@ -26,10 +24,10 @@ const fadeOut = {
 }
 
 // ========================================== Events, Events Everywhere
-// window.addEventListener('load', (event)=> {
-//     let audioElement = new Audio('http://soundbible.com/grab.php?id=611&type=mp3')
-//     audioElement.play()
-// })
+window.addEventListener('load', ()=> {
+    let audioElement = new Audio('http://soundbible.com/grab.php?id=611&type=mp3')
+    audioElement.play()
+})
 
 // Main Navigation Events
 
